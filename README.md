@@ -29,4 +29,5 @@ npm start
 ## Troubleshooting and additional information
 
 You can find troubleshooting and additional information at the
-[create-react-app page on github](https://github.com/facebookincubator/create-react-app).
+[create-react-app](https://github.com/facebookincubator/create-react-app) page
+on github.
