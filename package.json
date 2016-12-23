@@ -1,0 +1,32 @@
+{
+  "name": "chartlytics-people-combiner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Combines adjacent Person resources into a People resource and displays the result",
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dash-/chartlytics-people-combiner.git"
+  },
+  "keywords": [
+    "Chartlytics"
+  ],
+  "author": "David Ash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dash-/chartlytics-people-combiner/issues"
+  },
+  "homepage": "https://github.com/dash-/chartlytics-people-combiner#readme"
+}
