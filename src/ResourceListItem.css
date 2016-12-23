@@ -18,6 +18,12 @@
 .resource-list-item .type {
 }
 
+.resource-list-item .type span.fa {
+  display: inline-block;
+  margin-right: 16px;
+  color: #ccc;
+}
+
 .resource-list-item .order {
   text-align: right;
 }
