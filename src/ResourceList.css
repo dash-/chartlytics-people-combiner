@@ -1,2 +1,12 @@
 .app .resource-list {
 }
+
+.app .resource-list thead .name {
+}
+
+.app .resource-list thead .type {
+}
+
+.app .resource-list thead .order {
+  text-align: right;
+}

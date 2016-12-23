@@ -14,9 +14,18 @@ class ResourceList extends Component {
 
   render() {
     return (
-      <div className="resource-list">
-        {this.renderListItems()}
-      </div>
+      <table className="table table-striped resource-list">
+        <thead>
+          <tr>
+            <th className="name">Name</th>
+            <th className="type">Type</th>
+            <th className="order">Order</th>
+          </tr>
+        </thead>
+        <tbody>
+          {this.renderListItems()}
+        </tbody>
+      </table>
     );
   }
 }
@@ -24,5 +33,6 @@ class ResourceList extends Component {
 ResourceList.propTypes = {
   resources: ResourceListType.isRequired,
 };
+
 
 export default ResourceList;

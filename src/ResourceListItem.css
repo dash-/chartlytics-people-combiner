@@ -1,2 +1,23 @@
 .resource-list .resource-list-item {
+  text-align: left;
+}
+
+.resource-list .resource-list-item td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.resource-list .resource-list-item p {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.resource-list-item .names {
+}
+
+.resource-list-item .type {
+}
+
+.resource-list-item .order {
+  text-align: right;
 }
